@@ -9,62 +9,65 @@ public class arithmetic {
         int result;
 
         try (Scanner key = new Scanner(System.in)) {
-            // Input
-            System.out.print("Input your value 1: ");
+            // Input value
+            System.out.print("Input your value for addition: ");
             value1 = key.nextInt();
-            System.out.print("Input yout value 2: ");
+            System.out.print("Input yout value for addition: ");
             value2 = key.nextInt();
 
             // Addition
             result = value1 + value2;
             System.out.println("Result = " + result);
 
-            System.out.print("Input your value for addition: ");
+            // Input value
+            System.out.print("Input your value for subsctraction: ");
             value1 = key.nextInt();
-            System.out.print("Input your value for addition: ");
+            System.out.print("Input your value for subsctraction: ");
             value2 = key.nextInt();
 
             // Subsctraction
             result = value1 - value2;
             System.out.println("Result = " + result);
 
-            System.out.print("Input your value for subsctraction: ");
+            // Input value
+            System.out.print("Input your value for multiplication: ");
             value1 = key.nextInt();
-            System.out.print("Input your value for substraction: ");
+            System.out.print("Input your value for multiplication: ");
             value2 = key.nextInt();
 
             // Multiplication
             result = value1 * value2;
             System.out.println("Result = " + result);
 
-            System.out.print("Input your value for multiplication: ");
+            // Input value
+            System.out.print("Input your value for division: ");
             value1 = key.nextInt();
-            System.out.print("Input your value for multiplication: ");
+            System.out.print("Input your value for division: ");
             value2 = key.nextInt();
 
             // Division
             result = value1 / value2;
             System.out.println("Result = " + result);
 
-            System.out.print("Input your value for division: ");
+            // Input value
+            System.out.print("Input your value for substraction: ");
             value1 = key.nextInt();
-            System.out.print("Input your value for division: ");
-
+            System.out.print("Input your value for substraction: ");
             value2 = key.nextInt();
 
             // Subsctraction
             result = value1 - value2;
             System.out.println("Result = " + result);
 
-            System.out.print("Input your value for substraction: ");
+            // Input value
+            System.out.print("Input your value: ");
             value1 = key.nextInt();
-            System.out.print("Input your value for subsctraction: ");
+            System.out.print("Input your value: ");
             value2 = key.nextInt();
+
+            // Modulus
+            result = value1 % value2;
+            System.out.println("Results = " + result);
         }
-
-        // Modulus
-        result = value1 % value2;
-        System.out.println("Results = " + result);
-
     }
 }
