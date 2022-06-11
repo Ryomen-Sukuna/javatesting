@@ -1,4 +1,4 @@
-package com.operator.arithmetic;
+package com.operator;
 
 public class circumference {
     public static void main(String[] args) {

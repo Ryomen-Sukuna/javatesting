@@ -1,4 +1,4 @@
-package com.operator.arithmetic;
+package com.operator;
 
 public class assignment {
     public static void main(String[] args) {
