@@ -8,15 +8,16 @@ public class converter {
         Double area;
         int base, height;
 
-        // Create new scanner
-        Scanner scan = new Scanner(System.in);
-
-        // Input
-        System.out.println("== Program to calculate area of Triangle ==");
-        System.out.print("Input your area: ");
-        base = scan.nextInt();
-        System.out.print("Input your height: ");
-        height = scan.nextInt();
+        try (
+                // Create new scanner
+                Scanner scan = new Scanner(System.in)) {
+            // Input
+            System.out.println("== Program to calculate area of Triangle ==");
+            System.out.print("Input your area: ");
+            base = scan.nextInt();
+            System.out.print("Input your height: ");
+            height = scan.nextInt();
+        }
 
         // Process
         area = Double.valueOf((base * height) / 2);
